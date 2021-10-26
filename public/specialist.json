@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "name": "Dr.Johne Doe",
+        "graduate": "M.D, PH.D",
+        "sepcial" : "General Pediatrics, Pulmonary" ,
+        "img": "https://webthemez.com/demo/rainbow-children-hospital-bootstrap-website-template/img/team1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Jennifer",
+        "graduate": "M.B.B.S, PH.D",
+        "sepcial" : "General Pediatrics, Hematology" ,
+        "img": "https://webthemez.com/demo/rainbow-children-hospital-bootstrap-website-template/img/team2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Christean",
+        "graduate": "M.D, PH.D",
+        "sepcial" : "General Pediatrics, Pulmonary" ,
+        "img": "https://webthemez.com/demo/rainbow-children-hospital-bootstrap-website-template/img/team3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Kerinele rase",
+        "graduate": "M.S.S.D, PH.D",
+        "sepcial" : "General Pediatrics, Pulmonary" ,
+        "img": "https://webthemez.com/demo/rainbow-children-hospital-bootstrap-website-template/img/team4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "John smith",
+        "graduate": "M.S.S.D, PH.D",
+        "sepcial" : "General Pediatrics, Pulmonary" ,
+        "img": "https://image.freepik.com/free-photo/portrait-smiling-handsome-male-doctor-man_171337-5055.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Clari tom",
+        "graduate": "M.S.S.D, PH.D",
+        "sepcial" : "General Pediatrics, Pulmonary" ,
+        "img": "https://image.freepik.com/free-photo/handsome-male-dotor-holding-red-pill-isolated-white-background_171337-77013.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Dr.Virath",
+        "graduate": "M.S.S.D, PH.D",
+        "sepcial" : "General Pediatrics, Pulmonary" ,
+        "img": "https://image.freepik.com/free-photo/happy-male-doctor-showing-thumb-up-isolated-white-background_171337-76990.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Jerry goll",
+        "graduate": "M.S.S.D, PH.D",
+        "sepcial" : "General Pediatrics, Pulmonary" ,
+        "img": "https://image.freepik.com/free-photo/portrait-hansome-young-male-doctor-man_171337-5068.jpg"
+    }
+]
