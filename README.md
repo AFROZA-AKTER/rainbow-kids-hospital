@@ -4,6 +4,8 @@
 
 # About this site:
 _This a healthcare-related-website
--It is specially for kids
--This website will help you to get an expert's appointment online
+
+_It is specially for kids
+
+_This website will help you to get an expert's appointment online
 
