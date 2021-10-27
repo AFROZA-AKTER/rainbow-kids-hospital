@@ -8,23 +8,24 @@ const ServiceDetails = () => {
     const [services] = useServices();
     const [serviceDetails, setServiceDetails] = useState({});
     useEffect(() => {
-        if (services.length) {
-            setServiceDetails(services.find(service => service.id === parseInt(serviceId)));
+        if (services.length > 0) {
+            const specificDetail = (services.find(service => service.id == serviceId));
+            setServiceDetails(specificDetail);
         }
 
-    }, [serviceId , services]);
+    }, [services]);
 
     const { service, img, info, id } = serviceDetails;
     
     return (
         <>
-        <Col  className="mt-5">
-            <Card className="h-100">
+        <Col  className="m-5 ">
+            <Card className="h-100 w-50  text-center">
                 <Card.Img variant="top" src={img} />
                 <Card.Body>
                     <Card.Title style={{ color: 'purple' }}>{service}</Card.Title>
                     <Card.Text className="">
-                        {id}
+                        {info}
                     </Card.Text>
                        
                 </Card.Body>

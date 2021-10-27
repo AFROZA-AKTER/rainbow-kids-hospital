@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Card, Col } from 'react-bootstrap';
 import { useParams } from 'react-router';
 import AppoinmentForm from '../../AppoinmentForm/AppoinmentForm';
 import UseExpert from '../../Hooks/UseExpert';
@@ -16,16 +17,27 @@ const Doctors = () => {
         }
 
 
-    }, [doctorId, specialist]);
+    }, [specialist]);
 
-    const { name, img, description, special } = doctorDetails;
+    const { name, img, description, sepcial } = doctorDetails;
     return (
-        <div className="text-center m-5">
-
-            <h1>More details of Doctor ID :{doctorId}</h1>
-            <h3>Please fill up the following form for appoinment</h3>
-            <AppoinmentForm></AppoinmentForm>
-        </div>
+        <>
+        <Col  className="m-5 ">
+            <Card className="h-100 w-50  text-center">
+                <Card.Img variant="top" src={img} />
+                <Card.Body>
+                    <Card.Title style={{ color: 'purple' }}>{name}</Card.Title>
+                    <Card.Text className="text-info">Special:
+                        {sepcial}
+                    </Card.Text>
+                    <Card.Text className="">
+                        {description}
+                    </Card.Text>
+                       
+                </Card.Body>
+            </Card>
+        </Col>
+        </>
 
     );
 };
