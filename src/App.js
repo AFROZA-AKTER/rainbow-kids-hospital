@@ -18,6 +18,7 @@ import PrivateRoute from './component/PrivateRoute/PrivateRoute';
 import Treatment from './Treatment/Treatment';
 import Gallery from './component/Gallery/Gallery';
 import AppoinmentForm from './component/AppoinmentForm/AppoinmentForm';
+import ServiceDetails from './component/ServiceDetails/ServiceDetails';
 
 function App() {
   return (
@@ -46,8 +47,12 @@ function App() {
               <Doctors></Doctors>
             </PrivateRoute>
 
-            <PrivateRoute path="/treatment">
+            <Route path="/treatment">
               <Treatment></Treatment>
+            </Route>
+
+            <PrivateRoute path="/service/:serviceId">
+              <ServiceDetails></ServiceDetails>
             </PrivateRoute>
 
             <PrivateRoute path="/gallery">

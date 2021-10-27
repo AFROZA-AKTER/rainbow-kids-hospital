@@ -18,7 +18,7 @@ const Expert = ({ expert }) => {
                         </Card.Text>
 
                        
-                            <Link to={`/more/${id}`}>
+                            <Link  to={'/more/' + id}>
                                 <Button  variant="btn btn-outline-info">More Info</Button>
                             </Link>
                        
